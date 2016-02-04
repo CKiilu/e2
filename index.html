@@ -108,13 +108,14 @@
     </div>
     </footer>
     <script>
-        var myFirebaseRef = new Firebase('https://craze.firebaseio.com/');
+        var myFirebaseRef = new Firebase('https://craze.firebaseio.com/'),
+            customerDetails = myFirebaseRef.child('Customers');
         $('#message').keypress(function(e) {
             if (e.keyCode == 13) {
                 var Name = $('#left').val();
                 var Email = $('#right').val();
                 var Message = $('#message').val();
-                myFirebaseRef.push({
+                customerDetails.push({
                     Name: Name,
                     Email: Email,
                     Message: Message
