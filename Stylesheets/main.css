@@ -1,6 +1,5 @@
-
-
 /*Start of stylesheet*/
+
 
 /*================================
 Google fonts used:
@@ -10,11 +9,19 @@ font-family: 'Lobster', cursive;
  @import url(https://fonts.googleapis.com/css?family=Oswald|Ubuntu|Lobster);
 =================================*/
 
+
 /*Body*/
+
+
 /*Header*/
+
+
 /*Sections*/
+
+
 /*home*/
-#home{
+
+#home {
     background-image: url(../assets/assets/h_img.jpg);
     background-size: cover;
     color: #ffffff;
@@ -22,69 +29,82 @@ font-family: 'Lobster', cursive;
     height: 100vh;
     padding: 15%;
 }
+
 /*about*/
-#about{
+
+#about {
     background: #EDF2DF;
     height: 50vh;
 }
+
 /*services*/
-#services{
+
+#services {
     background-image: url(../assets/assets/c_image.jpg);
     background-size: cover;
     color: #ffffff;
     background-repeat: no-repeat;
     height: 50vh;
 }
+
 /*do*/
-#do{
+
+#do {
     padding: 20px;
     background: #EDF2DF;
     font-size: 0.9em;
 }
+
 /*folio*/
-#folio{
+
+#folio {
     background: #EDF2DF;
     height: 100vh;
 }
 
 /*contact*/
-#contact{
+
+#contact {
     background-image: url(../assets/assets/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
     padding: 15%;
 }
-#contact h3{
+#contact h3 {
     color: white;
 }
-#left{
+#left {
     float: left;
     width: 40%;
 }
-#right{
+#right {
     float: right;
     width: 40%;
 }
-.clear{
+#submit {
+    visibility: hidden;
+}
+.clear {
     background: none;
     color: #fff;
 }
-.thumbnail{
+.clear:focus {
+    background: rgba(0, 0, 0, 0.5);
+}
+.thumbnail {
     border: #EDF2DF;
     margin-right: 2%;
 }
-textarea{
+textarea {
     height: 168px;
 }
+
 /*Footer*/
-footer{
+
+footer {
     background: #EDF2DF;
     clear: both;
     height: 20%;
     padding: 30px;
 }
-
-
-
-
